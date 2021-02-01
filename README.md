@@ -1,14 +1,10 @@
-# Base Docker Images
-- Each branch is a different base image, which can be used for different things. They are available on DockerHub.
+# Pyrex
 
-## Reasoning
-- Wanted a way to work in a common environment
-- Wanted people to be able to execute/try out code 
-- Wanted to run it all in Jupyter
-- Wanted to work in R and Python
+This is a way to work on things in Jupyter notebooks using both Python and R. Provides a base image with jupyter and some common installs for Python and R.
 
-## Create Image Locally
-Execute at root of project directory:
-```
-docker build . -t pyrex:latest
-```
+Pyrex:
+- "Py" for Python
+- "r" for R
+- "ex" for...executable? I dunno, I thought it was clever
+
+Use a Pyrex version to suit your needs!
