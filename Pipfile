@@ -10,6 +10,7 @@ jupyter = "*"
 jedi = "==0.17.2"
 pyjanitor = "~=0.18.1"
 numpy = "*"
+pandas = "*"
 
 [requires]
-python_version = "3.7"
+python_version = "3.8"
