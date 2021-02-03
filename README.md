@@ -10,8 +10,8 @@ This is a way to work on things in Jupyter notebooks using both Python and R, al
 
 | Container | Usage | Dockerfile | Python | R | Description
 | :---: | :--- | :---: | :---: | :---: | :--- |
-| [classic](https://github.com/zachbogart/pyrex/tree/main/classic/) | `FROM devperiscopic/pyrex:classic` | [Dockerfile](https://github.com/zachbogart/pyrex/tree/main/classic/Dockerfile) | [Pipfile](https://github.com/zachbogart/pyrex/tree/main/classic/Pipfile) | [R Packages](https://github.com/zachbogart/pyrex/tree/main/classic/install_packages.R) | The basics for Python and R. 
-| [prepared](https://github.com/zachbogart/pyrex/tree/main/prepared) | `FROM devperiscopic/pyrex:prepared` | [Dockerfile](https://github.com/zachbogart/pyrex/tree/main/prepared/Dockerfile) | [Pipfile](https://github.com/zachbogart/pyrex/tree/main/prepared/Pipfile) | [R Packages](https://github.com/zachbogart/pyrex/tree/main/prepared/install_packages.R) | Copy of `classic` with selected nbextentions pre-installed. 
+| [classic](https://github.com/zachbogart/pyrex/tree/main/classic/) | `FROM zachbogart/pyrex:classic` | [Dockerfile](https://github.com/zachbogart/pyrex/tree/main/classic/Dockerfile) | [Pipfile](https://github.com/zachbogart/pyrex/tree/main/classic/Pipfile) | [R Packages](https://github.com/zachbogart/pyrex/tree/main/classic/install_packages.R) | The basics for Python and R. 
+| [prepared](https://github.com/zachbogart/pyrex/tree/main/prepared) | `FROM zachbogart/pyrex:prepared` | [Dockerfile](https://github.com/zachbogart/pyrex/tree/main/prepared/Dockerfile) | [Pipfile](https://github.com/zachbogart/pyrex/tree/main/prepared/Pipfile) | [R Packages](https://github.com/zachbogart/pyrex/tree/main/prepared/install_packages.R) | Copy of `classic` with selected nbextentions pre-installed. 
 
 ***  
 
