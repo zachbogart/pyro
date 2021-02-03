@@ -66,4 +66,3 @@ RUN jupyter nbextension enable varInspector/main
 RUN jupyter nbextension enable hinterland/hinterland
 RUN jupyter nbextension enable spellchecker/main
 RUN jupyter nbextension enable init_cell/main
-RUN jupyter nbextension enable rubberband/main
