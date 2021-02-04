@@ -15,7 +15,7 @@ Below is a list of "pyrex containers", which are base docker containers availabl
 
 | Container | Usage | Dockerfile | Python | R | Description
 | :---: | :--- | :---: | :---: | :---: | :--- |
-| [vanilla](https://github.com/zachbogart/pyrex/tree/main/vanilla/) | `FROM zachbogart/pyrex:vanilla` | [Dockerfile](https://github.com/zachbogart/pyrex/tree/main/vanilla/Dockerfile) | [Pipfile](https://github.com/zachbogart/pyrex/tree/main/vanilla/Pipfile) | [RScript](https://github.com/zachbogart/pyrex/tree/main/vanilla/install_packages.R) | The basics for Python (np, pd, plt) and R (tidyverse, readxl, glue). 
+| [vanilla](https://github.com/zachbogart/pyrex/tree/main/vanilla/) | `FROM zachbogart/pyrex:vanilla` | [Dockerfile](https://github.com/zachbogart/pyrex/tree/main/vanilla/Dockerfile) | [Pipfile](https://github.com/zachbogart/pyrex/tree/main/vanilla/Pipfile) | [RScript](https://github.com/zachbogart/pyrex/tree/main/vanilla/install_packages.R) | The basics for Python (np, pd, plt) and R (tidyverse, janitor, readxl, glue). 
 | [vanilla_swirl](https://github.com/zachbogart/pyrex/tree/main/vanilla_swirl) | `FROM zachbogart/pyrex:vanilla_swirl` | [Dockerfile](https://github.com/zachbogart/pyrex/tree/main/vanilla_swirl/Dockerfile) | [Pipfile](https://github.com/zachbogart/pyrex/tree/main/vanilla_swirl/Pipfile) | [RScript](https://github.com/zachbogart/pyrex/tree/main/vanilla_swirl/install_packages.R) | Copy of `vanilla` with selected nbextentions pre-installed (see bottom of Dockerfile). 
 
 ***  
