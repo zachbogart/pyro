@@ -47,7 +47,7 @@ install.packages("<PACKAGE_NAME>")
 pyro:
 - "py" for Python
 - "r" for R
-- "o" for...um...o's look like a containers? I dunno, I thought it was clever.
+- "o" for...um...o's look like containers? I dunno, I thought it was clever.
 
 Made with 💖
 
