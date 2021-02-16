@@ -66,3 +66,7 @@ RUN jupyter nbextension enable varInspector/main
 RUN jupyter nbextension enable hinterland/hinterland
 RUN jupyter nbextension enable spellchecker/main
 RUN jupyter nbextension enable init_cell/main
+
+# activate jupytext
+RUN jupyter nbextension install --py jupytext --user
+RUN jupyter nbextension enable --py jupytext --user

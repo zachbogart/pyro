@@ -53,7 +53,7 @@ COPY . ${PROJECT_DIR}/
 RUN pipenv install --system --deploy
 
 # install R packages
-# RUN Rscript install_packages.R
+RUN Rscript install_packages.R
 
 # install JS/CSS files for jupyter_contrib_nbextensions
 RUN jupyter contrib nbextension install --user
